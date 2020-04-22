@@ -1,0 +1,67 @@
+/*
+html {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+*/
+
+body {
+    background-color: white;
+    background-image: url("https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/04/shutterstock_407554567-compressor-1.jpg");
+    opacity: 0.95;
+    padding: 1em;
+/*    margin: 10%;*/
+/*    max-width: 960px;*/
+}
+main {
+    display:grid;
+    border: solid 6px black;
+    grid-template-columns: 70% 30%;
+    grid-template-areas:
+        "flex-container flex-container"
+        "tribute-info tribute-info"
+        "tribute-link tribute-link";
+    justify-items: center;
+    align-items: center;
+    overflow: hidden;
+}
+div {
+    background-color: blanchedalmond;
+    padding: 1em;
+    font-family: cursive;
+    max-width: 100%;
+    height: auto;
+}
+#flex-container{
+    grid-area: flex-container;
+    display: flex;
+    flex-flow: column wrap;
+}
+#title{
+    align-self: center;
+    justify-self: center;
+}
+#img-div{
+    grid-area: img;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#tribute-info{
+    grid-area: tribute-info;
+    display:flex;
+    flex-flow: column wrap;
+}
+#t-link{
+    grid-area: tribute-link;
+}
+#img-caption{
+    position:relative;
+    text-align: center;
+}
+
+
