@@ -7,6 +7,6 @@ Also part of my first FCC's responsive web design project that is to build a tri
 
 This is a single page site and built by only using HTML/CSS with no Javascript involved.
 
-The live version of this page can be found here:
+The live version of this page can be found here: https://sp3ck.github.io/charles-babbage-tribute-page/
 
 Passed all 10 tests.
